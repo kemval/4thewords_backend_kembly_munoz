@@ -1,0 +1,22 @@
+# archivos y directorios de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pyd
+*.so
+
+# archivos de configuración de entorno 
+*.env
+.env.*
+
+# sistema operativo
+.DS_Store
+
+# archivos temporales 
+*.log
+*.bak
+
+# entornos virtuales
+.venv/
+venv/
