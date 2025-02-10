@@ -101,7 +101,7 @@ uvicorn app.main:app --reload
 
 Esto iniciará el servidor en modo desarrollo, lo que significa que se recargará automáticamente cada vez que realices cambios en el código.
 
-- El servidor estará disponible en: `http://localhost:8080`
+- El servidor estará disponible en: `http://localhost:8000`
 
 ### 6. Endpoints disponibles
 
@@ -117,11 +117,11 @@ A continuación se detallan los endpoints disponibles en la API:
   - `canton`: Filtra por cantón.
   - `distrito`: Filtra por distrito.
 
-  Ejemplo de uso: `http://localhost:8080/leyendas?nombre=La Llorona&provincia=San José`
+  Ejemplo de uso: `http://localhost:8000/leyendas?nombre=La Llorona&provincia=San José`
 
 - **`GET /leyendas/{id}`**: Obtiene una leyenda específica por su ID.
 
-  Ejemplo de uso: `http://localhost:8080/leyendas/1`
+  Ejemplo de uso: `http://localhost:8000/leyendas/1`
 
 - **`POST /leyendas`**: Crea una nueva leyenda.
   
@@ -145,20 +145,6 @@ A continuación se detallan los endpoints disponibles en la API:
   **Cuerpo de la solicitud (JSON)**: Similar al cuerpo de la solicitud `POST`, pero incluye solo los campos que deseas actualizar.
 
 - **`DELETE /leyendas/{id}`**: Elimina una leyenda por su ID.
-
----
-
-## Proyecto de Frontend
-
-El proyecto frontend se encuentra en el repositorio [4thewords_frontend_kembly_munoz](https://github.com/tu_usuario/4thewords_frontend_kembly_munoz), y puedes acceder a él para ver cómo interactúa con esta API.
-
----
-
-## Contacto
-
-Si tienes alguna pregunta, no dudes en contactarme a través de [tu_email@dominio.com].
-
----
 
 ### Créditos
 
