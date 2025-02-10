@@ -102,6 +102,7 @@ uvicorn app.main:app --reload
 Esto iniciará el servidor en modo desarrollo, lo que significa que se recargará automáticamente cada vez que realices cambios en el código.
 
 - El servidor estará disponible en: `http://localhost:8000`
+- El servidor estará disponible en: `http://localhost:8000`
 
 ### 6. Endpoints disponibles
 
@@ -118,9 +119,11 @@ A continuación se detallan los endpoints disponibles en la API:
   - `distrito`: Filtra por distrito.
 
   Ejemplo de uso: `http://localhost:8000/leyendas?nombre=La Llorona&provincia=San José`
+  Ejemplo de uso: `http://localhost:8000/leyendas?nombre=La Llorona&provincia=San José`
 
 - **`GET /leyendas/{id}`**: Obtiene una leyenda específica por su ID.
 
+  Ejemplo de uso: `http://localhost:8000/leyendas/1`
   Ejemplo de uso: `http://localhost:8000/leyendas/1`
 
 - **`POST /leyendas`**: Crea una nueva leyenda.
